@@ -1,6 +1,5 @@
 FactoryBot.define do
-  # factory :offer_with_line_item do
-  #   state 0
-  #   association :offer, factory: :offer
-  # end
+  factory :offer do
+    state { 0 }
+  end
 end
